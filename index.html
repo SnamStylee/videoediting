@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SnaM's Portfolio</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon">
+  <style>
+    body {
+      background-image: url("https://rare-gallery.com/thumbs/198284-yuno-gasai-1920x1080.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: "Courier New", monospace;
+    }
+    
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .video-container video {
+      width: calc(50% - 10px);
+      margin-bottom: 10px;
+    }
+
+    .video-container .video-player {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 800px) {
+      .video-container {
+        justify-content: center;
+      }
+      .video-container .video-player {
+        width: 100%;
+        max-width: 934px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .video-container .video-player {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="title-container">
+    <h1>Welcome to My Portfolio</h1>
+  </div>
+  
+  <div>
+    <h2>Real Life</h2>
+    <div class="video-container">
+      <video controls>
+        <source src="intro.mp4" type="video/mp4">
+      </video>
+      <video controls>
+        <source src="doc.mp4" type="video/mp4">
+      </video>
+      <div class="video-player">
+        <iframe width="934" height="525" src="https://www.youtube.com/embed/QheQbwcQCjI" title="ΔΟΚΙΜΑΖΟΥΜΕ VIRAL TIK TOK LIFE HACKS !  *ΔΟΥΛΕΨΑΝ * +Giveaway ~ GREEK TIK TOK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <div>
+    <h2>Games (Montage)</h2>
+    <div class="video-container">
+      <div class="video-player">
+        <iframe width="934" height="525" src="https://www.youtube.com/embed/PriL2AilgU8" title="𝑙𝑖𝑙𝑑𝑥𝑟𝑖𝑡𝑜 [Full] | Genshin Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-player">
+        <iframe width="934" height="525" src="https://www.youtube.com/embed/hfu_RqFZNYk" title="Long Time | Dedicated To Renziie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-player">
+        <iframe width="934" height="525" src="https://www.youtube.com/embed/rsJ0xMWXAIo" title="YOTSUYA | COD Mobile Edit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-player">
+        <iframe width="934" height="525" src="https://www.youtube.com/embed/bm-B5_liBik" title="Rememberance | Black Ops 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Add more video categories and videos as needed -->
+  
+</body>
+</html>
